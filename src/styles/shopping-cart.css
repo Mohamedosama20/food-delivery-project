@@ -1,0 +1,107 @@
+.container-cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.639);
+    z-index: 99999;
+}
+
+.cart-product {
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 999999;
+    background: #fff;
+    width: 400px;
+    height: 100%;
+}
+
+.cart-info img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.product-p {
+    font-size: 0.8rem;
+}
+.product-p span{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #df2020;
+}
+
+.cart-add {
+    background: #fde4e4;
+    border: 2px 5px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-add, .btn-remove {
+    cursor: pointer;
+
+}
+
+.item-cart {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fde4e4;
+}
+.cart-close {
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+}
+.cart-close span i{
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: #212245;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.cart-list {
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+}
+.cart-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 20px;
+    width: 100%;
+    height: 80px;
+    background: #df2020;
+}
+.cart-bottom h6{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.cart-bottom h6 span{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.cart-bottom button {
+    border: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+    background: #fff;
+    color: #212245
+}
+.cart-bottom button a{
+    font-weight: 600;
+    color: #212245;
+}

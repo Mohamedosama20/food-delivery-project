@@ -1,0 +1,131 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #fde4e4;
+
+}
+
+.footer__logo img{
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+}
+
+.footer__logo h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.footer__logo p {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 28px;
+}
+
+.delivery__time-item {
+    background: transparent !important;
+}
+
+.delivery__time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    background: transparent;
+}
+
+.delivery__time-item p{
+    color: #212245;
+}
+
+.footer__title {
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+}
+
+.newsletter {
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.newsletter input{
+    background: transparent !important;
+    border: none;
+    outline: none;
+}
+.newsletter span{
+    background: #212245; 
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.newsletter span i{
+    color: #fff;
+}
+.newsletter input:focus{
+    outline: none;
+}
+
+.newsletter input::placeholder{
+    color: #212245;
+}
+
+.footer__social span i {
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none !important;
+    
+}
+.copyright {
+    font-size: 0.8rem;
+    color: #212245;
+
+}
+
+@media only screen and (max-width:768px) {
+    .footer__title {
+        font-size: 0.8rem;
+    }
+    .delivery__time-item span{
+        font-size: 0.8rem;
+    }
+    .delivery__time-item p{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+
+}
+@media only screen and (max-width:576px) {
+.footer__social {
+    justify-content: center;
+}
+.footer__social p{
+    font-size: 0.8rem;
+}
+.footer__social span{
+    padding: 4px ;
+        
+}
+.footer__social span a{
+    font-size: 0.7rem;
+        
+}
+.copyright {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:992px) {
+    .newsletter input{
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+    .newsletter span{
+        padding: 4px 20px;
+        font-size: 0.7rem;
+    }
+}

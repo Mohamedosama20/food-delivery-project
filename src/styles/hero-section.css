@@ -1,0 +1,206 @@
+.hero-title {
+font-size: 2.5rem;
+line-height: 55px;
+}
+.hero-title span{
+color: #df2020;
+}
+.hero-contact p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+
+.hero-contact {
+    padding-top: 70px;
+}
+
+.hero-btn button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.order-btn {
+   background: #df2020;
+   color: #fff;
+   transition: 0.3s;
+}
+.order-btn:hover {
+    background: #212245;
+ }
+.all-foods-btn {
+    background: transparent;
+    border: 1px solid #df2020 !important;
+}
+.all-foods-btn a {
+    color: #df2020;
+}
+.shipping-icon i{
+    padding: 5px;
+    background-color: #df2020;
+    color:#fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.hero-service p{
+    color: #212245;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/*********** Home Section *************/
+.feature-subtitle {
+    color: #df2020;
+}
+
+.feature-title span{
+    color: #df2020;
+}
+
+.feature-text {
+    color: #777;
+    
+}
+
+.feature-item p{
+    color: #777;
+}
+
+.food-category {
+    background: #df2020;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.food-category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+}
+.food-category button img{
+   width: 20px;
+   height: 20px;
+}
+
+.btnActive {
+    background: #fff !important;
+    border-radius: 5px;
+    color: #df2020  !important;
+}
+/*********WHY US*************/
+.choose-icon  {
+font-weight: 600;
+margin-bottom: 10px;
+}
+.choose-icon  i{
+font-weight: 500 !important;
+color: #df2020;
+}
+.why-title span{
+color: #df2020;
+}
+
+.tasty-desc {
+    line-height: 28px;
+    color: #777;
+
+}
+
+.choose-desc {
+    color: #777;
+}
+
+/*********Testimonial*************/
+.testimonial-title {
+    color: #df2020;
+    font-weight: 600;
+}
+
+.testimonial-subtitle span{
+    color: #df2020;
+}
+
+.testimonial-desc{
+    color: #777;
+    line-height: 30px;
+}
+
+/************Media Screen************/
+@media only screen and (max-width:768px) {
+    .hero-contact h5{
+        font-size: 1rem;
+    }
+    .hero-contact p{
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+    .hero-title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    .hero-btn button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+    .hero-service p{
+        font-size: 0.7rem !important;
+    }
+    .feature-item p {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .feature-item h5 {
+        font-size: 0.9rem;
+    }
+    .feature-subtitle {
+        font-size: 1rem;
+    }
+    .feature-text {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .food-category {
+        padding:  15px;
+    }
+    .food-category button {
+        font-size: 0.7rem;
+        padding: 5px 15px;
+    }
+    .tasty-desc {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .choose-icon {
+        font-size: 0.8rem;
+    }
+    .choose-desc {
+        font-size: 0.7rem;
+    }
+    .testimonial-title {
+        font-size: 1rem;
+    }
+    .testimonial-desc {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:576px) {
+    .hero-contact {
+        text-align: center;
+    }
+  
+    .hero-btn {
+        justify-content: center;
+    }
+  
+    .hero-service {
+        justify-content: center;
+    }
+}
